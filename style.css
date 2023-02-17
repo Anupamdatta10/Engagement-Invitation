@@ -1,0 +1,87 @@
+.background {
+    background-color: #370832;
+	background-size: cover;
+	background-position: center;
+	/* height: 100%; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* overflow: hidden; */
+}
+
+.content {
+    z-index: 2;
+	padding: 5px;
+    margin-top: 20%;
+	text-align: center;
+	background-color: #370832d5;
+	box-shadow: 0px 0px 10px 0px #b3aba3;
+	border-radius: 10px;
+    border: 5px solid #ecd20b;
+    width: 900px;
+    position: relative;
+}
+.info{
+	font-family: '';
+	font-size: 100%;
+}
+
+h1, h2, p {
+	font-family: 'Dancing Script', cursive;
+	color: #fffffff1;
+	
+	
+}
+
+h1 {
+	font-size: 72px;
+	font-weight: 800;
+	margin-bottom: 20px;
+	text-shadow:2px 2px 15px #f707f7;
+}
+
+h2 {
+	font-size: 48px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+p {
+	font-size: 24px;
+	line-height: 1.2;
+	margin-bottom: 10px;
+}
+
+.rotate {
+    animation: rotate 20s linear infinite;
+    z-index: 1;
+  }
+  
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+.backdiv{
+    position: absolute;
+    margin-top:20% ;
+    background-size: cover;
+	background-position: center;
+    background-image: url('img2.png');
+    height:900px;
+    width: 900px;
+}
+
+.neonText {
+	/* color: #fff; */
+	text-shadow:
+	  1px 1px  #f1eef1;
+	
+  }
+.my-link{
+	color: #fffffff1; 
+}
